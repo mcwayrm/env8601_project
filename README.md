@@ -56,27 +56,39 @@ You will want to put the `scenario_definitions.csv` file into a new project fold
 
 ### Add a new policy layer preventing or encouraging a type of land-use change. 
 
-The policy I apply is ... To implement this, I change ...
+I implement a policy that supposes that there are no conservation requirements. This is to say that protected areas can be converted to any land use type. To apply this policy, I edit the `strict_pa` attribute of the `default_global_coefficients.csv` from the seals base data. This change can be found in the attached [default_global_coefficients.csv](./base_data/seals/default_inputs/default_global_coefficients.csv) file. Below are the LULC as a result of this change. 
 
-Code for this can be found here.
+#### LULC 2017 with Baseline (SSP2)
 
-Here are the results from that...
+![](./seals/projects/BLZ_standard/intermediate/visualization1b/lulc_pngs/lulc_esa_seals7_luh2-message_2017.png)
 
 #### LULC 2030 with SSP1
 
+![](./seals/projects/BLZ_standard/intermediate/visualization1b/lulc_pngs/lulc_esa_seals7_ssp1_rcp26_luh2-message_bau_2030.png)
+
 #### LULC 2030 with SSP5
+
+![](./seals/projects/BLZ_standard/intermediate/visualization1b/lulc_pngs/lulc_esa_seals7_ssp5_rcp85_luh2-message_bau_2030.png)
 
 #### LULC 2035 with SSP1
 
+![](./seals/projects/BLZ_standard/intermediate/visualization1b/lulc_pngs/lulc_esa_seals7_ssp1_rcp26_luh2-message_bau_2035.png)
+
 #### LULC 2035 with SSP5
 
-#### LULC 2040 with SSP1
+![](./seals/projects/BLZ_standard/intermediate/visualization1b/lulc_pngs/lulc_esa_seals7_ssp5_rcp85_luh2-message_bau_2035.png)
 
-#### LULC 2040 with SSP5
+#### LULC 2045 with SSP1
+
+![](./seals/projects/BLZ_standard/intermediate/visualization1b/lulc_pngs/lulc_esa_seals7_ssp1_rcp26_luh2-message_bau_2045.png)
+
+#### LULC 2045 with SSP5
+
+![](./seals/projects/BLZ_standard/intermediate/visualization1b/lulc_pngs/lulc_esa_seals7_ssp5_rcp85_luh2-message_bau_2045.png)
 
 ### Provide a narrative of how the different scenerios changed when this land use class was expanded or contracted. 
 
-Here is a description visually comparing the two sets of graphs. 
+The SSP1 scenario had far more change than the SSP5 scenario; which was suprising. The main finding was that if we stay in a world of conservation, nature will expand in several areas of Belize. This is to suggest that urbanization and crop expansion in Belize has a minimal likilihood to increase under any SSP scenerio. But, Belize is an important area where natural captial could expand if we maintain a more enviornmental SSP. 
 
 ## Step 2
 
