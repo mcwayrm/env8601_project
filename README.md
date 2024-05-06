@@ -94,23 +94,29 @@ The SSP1 scenario had far more change than the SSP5 scenario; which was suprisin
 
 ### Using the first set of LULC maps from SEALS, assess ecosystem service provision for carbon storage, water yield, pollination, sediment retention, and nutrient retention using the InVEST ecosystem service modeling. 
 
-I completed this run. Any problems that I needed to resolve for a successful run. The code for this can be found here.
+I use the LULC maps generated through SEALS as inputs to assess ecosystem service provision through the InVEST model. Before using the generated LULC maps in the InVEST to compute the ecosystem services, we need to make sure that the projection systems used in the maps are confirmable. The SEAL output uses WGS84 and INVEST uses EPSG:5235. Another commonly used and preferred projection system is Robinson projection. This conversion is done with the following command `gdal.Warp(output_raster, input_raster, dstSRS = 'ESRI:54030')`. Additionally, to run the five InVEST models you need to collect the global input data required for each process based model from Chaplin-Kramer et al. "Global modeling of nature’s contributions to people". 
 
 ### Show the plots for these ecosystem services
 
-plot the images here...
-![]()
-
 #### Ecosystem Service: Carbon Storage
+
+![]()
 
 #### Ecosystem Service: Water Yield (Supply)
 
+![]()
+
 #### Ecosystem Service: Pollination
+
+![]()
 
 #### Ecosystem Service: Sediment Retention
 
+![]()
+
 #### Ecosystem Service: Nutrient Retention
 
+![]()
 
 ### Describe how the various scenerios differ with respect to the different ecosystem services. 
 
@@ -132,6 +138,14 @@ This README file so far has described the final project analysis and the results
 ### Make the repository public. Submit Repo to Canvas.
 
 This repository has been made public and can be found [here](https://github.com/mcwayrm/env8601_project).
-... completed ... eventually...
 
 
+### Here is a list of other versions of this project from colleagues in this course: 
+
+- [Malaysia - Tianhao Zhou](https://github.com/Tianhao02/APEC8601)
+- [Sri Lanka - Subin Poudel](https://github.com/subinpoudel/Earth-Economy-Modeling-of-SriLanka)
+- [Ghana - Matt Braaksma](https://github.com/m-braaksma/apec8601_project)
+- [ - Shunkei Kakimoto](https://github.com/Shunkei3/final_assignment)
+- [ - Prayash Pathak](https://github.com/prayash106/a-pec_8222_prayash_pathak)
+- [ - Jacob Harris](https://github.com/harr2887?tab=repositories)
+- [ - Yuheng Du]()
