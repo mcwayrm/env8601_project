@@ -94,17 +94,36 @@ The SSP1 scenario had far more change than the SSP5 scenario; which was suprisin
 
 ### Using the first set of LULC maps from SEALS, assess ecosystem service provision for carbon storage, water yield, pollination, sediment retention, and nutrient retention using the InVEST ecosystem service modeling. 
 
-I use the LULC maps generated through SEALS as inputs to assess ecosystem service provision through the InVEST model. Before using the generated LULC maps in the InVEST to compute the ecosystem services, we need to make sure that the projection systems used in the maps are confirmable. The SEAL output uses WGS84 and INVEST uses EPSG:5235. Another commonly used and preferred projection system is Robinson projection. This conversion is done with the following command `gdal.Warp(output_raster, input_raster, dstSRS = 'ESRI:54030')`. Additionally, to run the five InVEST models you need to collect the global input data required for each process based model from Chaplin-Kramer et al. "Global modeling of nature’s contributions to people". 
+I use the LULC maps generated through SEALS as inputs to assess ecosystem service provision through the InVEST model. Before using the generated LULC maps in the InVEST to compute the ecosystem services, we need to make sure that the projection systems used in the maps are confirmable. The SEAL output uses WGS84 and INVEST uses EPSG:5235. Another commonly used and preferred projection system is Robinson projection (ESRI:54030).  Additionally, to run the five InVEST models you need to collect the global input data required for each process based model from Chaplin-Kramer et al. "Global modeling of nature’s contributions to people".
+
+The input base data for the InVEST models can be found in the [base-data folder](./base_data/invest/). To create the following images, you can run the `run_invest_BLZ.py` script. 
 
 ### Show the plots for these ecosystem services
 
 #### Ecosystem Service: Carbon Storage
 
-![]()
+##### SSP1 2030 
+![](./invest/carbon-ssp1-2030/tot_c_cur.png)
 
-#### Ecosystem Service: Water Yield (Supply)
 
-![]()
+##### SSP1 2035
+![](./invest/carbon-ssp1-2035/tot_c_cur.png)
+
+
+##### SSP1 2045 
+![](./invest/carbon-ssp1-2045/tot_c_cur.png)
+
+
+##### SSP5 2030 
+![](./invest/carbon-ssp5-2030/tot_c_cur.png)
+
+
+##### SSP5 2035
+![](./invest/carbon-ssp5-2035/tot_c_cur.png)
+
+
+##### SSP5 2045 
+![](./invest/carbon-ssp5-2045/tot_c_cur.png)
 
 #### Ecosystem Service: Pollination
 
@@ -115,6 +134,10 @@ I use the LULC maps generated through SEALS as inputs to assess ecosystem servic
 ![]()
 
 #### Ecosystem Service: Nutrient Retention
+
+![]()
+
+#### Ecosystem Service: Water Yield (Supply)
 
 ![]()
 
