@@ -155,27 +155,28 @@ The input base data for the InVEST models can be found in the [base-data folder]
 #### Ecosystem Service: Sediment Retention
 
 ##### SSP1 2030 
-![](./invest)
+![](./invest/sediment-ssp1-2030/sed_export.png)
 
 
 ##### SSP1 2035
-![](./invest)
+![](./invest/sediment-ssp1-2035/sed_export.png)
 
 
 ##### SSP1 2045 
-![](./invest)
+![](./invest/sediment-ssp1-2045/sed_export.png)
 
 
 ##### SSP5 2030 
-![](./invest)
+![](./invest/sediment-ssp5-2030/sed_export.png)
 
 
 ##### SSP5 2035
-![](./invest)
+![](./invest/sediment-ssp5-2035/sed_export.png)
 
 
 ##### SSP5 2045 
-![](./invest)
+![](./invest/sediment-ssp5-2045/sed_export.png)
+
 
 #### Ecosystem Service: Nutrient Retention
 
