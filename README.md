@@ -236,7 +236,7 @@ It could also be that 2030 -- 2045 is too short of a timeframe to see meaniful c
 
 ### Write an executive summary for what the policy maker interested in "green economic development" should know. 
 
-In short, Belize's ecosystem servies will be unaffected by various climate change scenerios in the near term through 2045. The country of Belize has natural capital in the form of ... and is concentrated in ...
+In short, Belize's ecosystem servies will be unaffected by various climate change scenerios in the near term through 2045. The country of Belize has natural capital which will not vary much or contribute much likely because it does not have land use that can be changed by the small population. Policy makers interested in 'green economic development' do not a lot of options for expanding ecosystem services as the land is not used much for cropland or urban spaces. And even in a scenerio of industrial expansion, there is little comparative advantage to expand industry in Belize. So, there is little concern with what can be done with the current LULC of the country. I would instead say these policy makers can focus on other issues.
 
 ## Step 3 
 
