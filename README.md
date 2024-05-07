@@ -181,27 +181,27 @@ The input base data for the InVEST models can be found in the [base-data folder]
 #### Ecosystem Service: Nutrient Retention
 
 ##### SSP1 2030 
-![](./invest)
+![](./invest/nutrient-ssp1-2030/p_surface_export.png)
 
 
 ##### SSP1 2035
-![](./invest)
+![](./invest/nutrient-ssp1-2035/p_surface_export.png)
 
 
 ##### SSP1 2045 
-![](./invest)
+![](./invest/nutrient-ssp1-2045/p_surface_export.png)
 
 
 ##### SSP5 2030 
-![](./invest)
+![](./invest/nutrient-ssp5-2030/p_surface_export.png)
 
 
 ##### SSP5 2035
-![](./invest)
+![](./invest/nutrient-ssp5-2035/p_surface_export.png)
 
 
 ##### SSP5 2045 
-![](./invest)
+![](./invest/nutrient-ssp5-2045/p_surface_export.png)
 
 #### Ecosystem Service: Water Yield (Supply)
 
@@ -257,7 +257,7 @@ This repository has been made public and can be found [here](https://github.com/
 - [Malaysia - Tianhao Zhou](https://github.com/Tianhao02/APEC8601)
 - [Sri Lanka - Subin Poudel](https://github.com/subinpoudel/Earth-Economy-Modeling-of-SriLanka)
 - [Ghana - Matt Braaksma](https://github.com/m-braaksma/apec8601_project)
-- [ - Shunkei Kakimoto](https://github.com/Shunkei3/final_assignment)
+- [El Salvador - Shunkei Kakimoto](https://github.com/Shunkei3/final_assignment)
 - [ - Prayash Pathak](https://github.com/prayash106/a-pec_8222_prayash_pathak)
 - [ - Jacob Harris](https://github.com/harr2887?tab=repositories)
 - [ - Yuheng Du]()

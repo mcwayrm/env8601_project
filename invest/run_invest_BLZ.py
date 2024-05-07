@@ -3,6 +3,9 @@ import sys
 
 import natcap.invest.carbon
 import natcap.invest.pollination
+import natcap.invest.sdr.sdr
+import natcap.invest.ndr.ndr
+import natcap.invest.annual_water_yield
 import natcap.invest.utils
 
 LOGGER = logging.getLogger(__name__)
@@ -461,17 +464,166 @@ if __name__ == '__main__':
 # Module: Run Nutrient Retention
 
 ## Run for SSP1 2030
+args = {
+    'biophysical_table_path': 'C:\\Users\\ryanm\\Dropbox '
+                              '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\esa_and_modis_biophysical_table.csv',
+    'calc_n': False,
+    'calc_p': True,
+    'dem_path': 'C:\\Users\\ryanm\\Dropbox '
+                '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\dem.tif',
+    'k_param': '2',
+    'lulc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\seals\\projects\\BLZ_standard\\intermediate\\stitched_lulc_simplified_scenarios\\reprojected\\lulc_esa_seals7_ssp1_rcp26_luh2-message_bau_2030_clipped.tif',
+    'n_workers': '-1',
+    'results_suffix': '',
+    'runoff_proxy_path': 'C:\\Users\\ryanm\\Dropbox '
+                         '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\precipitation.tif',
+    'subsurface_critical_length_n': '',
+    'subsurface_eff_n': '',
+    'threshold_flow_accumulation': '1000',
+    'watersheds_path': 'C:\\Users\\ryanm\\Dropbox '
+                       '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\watershed.shp',
+    'workspace_dir': 'C:\\Users\\ryanm\\Dropbox '
+                     '(Personal)\\Files\\apec_8601\\env8601_project\\invest\\nutrient-ssp1-2030',
+}
+
+if __name__ == '__main__':
+    natcap.invest.ndr.ndr.execute(args)
 
 ## Run for SSP1 2035
+args = {
+    'biophysical_table_path': 'C:\\Users\\ryanm\\Dropbox '
+                              '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\esa_and_modis_biophysical_table.csv',
+    'calc_n': False,
+    'calc_p': True,
+    'dem_path': 'C:\\Users\\ryanm\\Dropbox '
+                '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\dem.tif',
+    'k_param': '2',
+    'lulc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\seals\\projects\\BLZ_standard\\intermediate\\stitched_lulc_simplified_scenarios\\reprojected\\lulc_esa_seals7_ssp1_rcp26_luh2-message_bau_2035_clipped.tif',
+    'n_workers': '-1',
+    'results_suffix': '',
+    'runoff_proxy_path': 'C:\\Users\\ryanm\\Dropbox '
+                         '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\precipitation.tif',
+    'subsurface_critical_length_n': '',
+    'subsurface_eff_n': '',
+    'threshold_flow_accumulation': '1000',
+    'watersheds_path': 'C:\\Users\\ryanm\\Dropbox '
+                       '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\watershed.shp',
+    'workspace_dir': 'C:\\Users\\ryanm\\Dropbox '
+                     '(Personal)\\Files\\apec_8601\\env8601_project\\invest\\nutrient-ssp1-2035',
+}
+
+if __name__ == '__main__':
+    natcap.invest.ndr.ndr.execute(args)
 
 ## Run for SSP1 2045
+args = {
+    'biophysical_table_path': 'C:\\Users\\ryanm\\Dropbox '
+                              '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\esa_and_modis_biophysical_table.csv',
+    'calc_n': False,
+    'calc_p': True,
+    'dem_path': 'C:\\Users\\ryanm\\Dropbox '
+                '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\dem.tif',
+    'k_param': '2',
+    'lulc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\seals\\projects\\BLZ_standard\\intermediate\\stitched_lulc_simplified_scenarios\\reprojected\\lulc_esa_seals7_ssp1_rcp26_luh2-message_bau_2045_clipped.tif',
+    'n_workers': '-1',
+    'results_suffix': '',
+    'runoff_proxy_path': 'C:\\Users\\ryanm\\Dropbox '
+                         '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\precipitation.tif',
+    'subsurface_critical_length_n': '',
+    'subsurface_eff_n': '',
+    'threshold_flow_accumulation': '1000',
+    'watersheds_path': 'C:\\Users\\ryanm\\Dropbox '
+                       '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\watershed.shp',
+    'workspace_dir': 'C:\\Users\\ryanm\\Dropbox '
+                     '(Personal)\\Files\\apec_8601\\env8601_project\\invest\\nutrient-ssp1-2045',
+}
+
+if __name__ == '__main__':
+    natcap.invest.ndr.ndr.execute(args)
 
 ## Run for SSP5 2030
+args = {
+    'biophysical_table_path': 'C:\\Users\\ryanm\\Dropbox '
+                              '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\esa_and_modis_biophysical_table.csv',
+    'calc_n': False,
+    'calc_p': True,
+    'dem_path': 'C:\\Users\\ryanm\\Dropbox '
+                '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\dem.tif',
+    'k_param': '2',
+    'lulc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\seals\\projects\\BLZ_standard\\intermediate\\stitched_lulc_simplified_scenarios\\reprojected\\lulc_esa_seals7_ssp5_rcp85_luh2-message_bau_2030_clipped.tif',
+    'n_workers': '-1',
+    'results_suffix': '',
+    'runoff_proxy_path': 'C:\\Users\\ryanm\\Dropbox '
+                         '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\precipitation.tif',
+    'subsurface_critical_length_n': '',
+    'subsurface_eff_n': '',
+    'threshold_flow_accumulation': '1000',
+    'watersheds_path': 'C:\\Users\\ryanm\\Dropbox '
+                       '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\watershed.shp',
+    'workspace_dir': 'C:\\Users\\ryanm\\Dropbox '
+                     '(Personal)\\Files\\apec_8601\\env8601_project\\invest\\nutrient-ssp5-2030',
+}
+
+if __name__ == '__main__':
+    natcap.invest.ndr.ndr.execute(args)
 
 ## Run for SSP5 2035
+args = {
+    'biophysical_table_path': 'C:\\Users\\ryanm\\Dropbox '
+                              '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\esa_and_modis_biophysical_table.csv',
+    'calc_n': False,
+    'calc_p': True,
+    'dem_path': 'C:\\Users\\ryanm\\Dropbox '
+                '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\dem.tif',
+    'k_param': '2',
+    'lulc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\seals\\projects\\BLZ_standard\\intermediate\\stitched_lulc_simplified_scenarios\\reprojected\\lulc_esa_seals7_ssp5_rcp85_luh2-message_bau_2035_clipped.tif',
+    'n_workers': '-1',
+    'results_suffix': '',
+    'runoff_proxy_path': 'C:\\Users\\ryanm\\Dropbox '
+                         '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\precipitation.tif',
+    'subsurface_critical_length_n': '',
+    'subsurface_eff_n': '',
+    'threshold_flow_accumulation': '1000',
+    'watersheds_path': 'C:\\Users\\ryanm\\Dropbox '
+                       '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\watershed.shp',
+    'workspace_dir': 'C:\\Users\\ryanm\\Dropbox '
+                     '(Personal)\\Files\\apec_8601\\env8601_project\\invest\\nutrient-ssp5-2035',
+}
+
+if __name__ == '__main__':
+    natcap.invest.ndr.ndr.execute(args)
 
 ## Run for SSP5 2045
+args = {
+    'biophysical_table_path': 'C:\\Users\\ryanm\\Dropbox '
+                              '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\esa_and_modis_biophysical_table.csv',
+    'calc_n': False,
+    'calc_p': True,
+    'dem_path': 'C:\\Users\\ryanm\\Dropbox '
+                '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\dem.tif',
+    'k_param': '2',
+    'lulc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\seals\\projects\\BLZ_standard\\intermediate\\stitched_lulc_simplified_scenarios\\reprojected\\lulc_esa_seals7_ssp5_rcp85_luh2-message_bau_2045_clipped.tif',
+    'n_workers': '-1',
+    'results_suffix': '',
+    'runoff_proxy_path': 'C:\\Users\\ryanm\\Dropbox '
+                         '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\precipitation.tif',
+    'subsurface_critical_length_n': '',
+    'subsurface_eff_n': '',
+    'threshold_flow_accumulation': '1000',
+    'watersheds_path': 'C:\\Users\\ryanm\\Dropbox '
+                       '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\watershed.shp',
+    'workspace_dir': 'C:\\Users\\ryanm\\Dropbox '
+                     '(Personal)\\Files\\apec_8601\\env8601_project\\invest\\nutrient-ssp5-2045',
+}
 
+if __name__ == '__main__':
+    natcap.invest.ndr.ndr.execute(args)
 
 #################################################
 # Module: Run Water Yield (Supply)
