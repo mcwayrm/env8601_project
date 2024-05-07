@@ -127,27 +127,115 @@ The input base data for the InVEST models can be found in the [base-data folder]
 
 #### Ecosystem Service: Pollination
 
-![]()
+##### SSP1 2030 
+![](./invest/pollinate-ssp1-2030/total_pollinator_abundance_spring.png)
+
+
+##### SSP1 2035
+![](./invest/pollinate-ssp1-2035/total_pollinator_abundance_spring.png)
+
+
+##### SSP1 2045 
+![](./invest/pollinate-ssp1-2045/total_pollinator_abundance_spring.png)
+
+
+##### SSP5 2030 
+![](./invest/pollinate-ssp5-2030/total_pollinator_abundance_spring.png)
+
+
+##### SSP5 2035
+![](./invest/pollinate-ssp5-2035/total_pollinator_abundance_spring.png)
+
+
+##### SSP5 2045 
+![](./invest/pollinate-ssp5-2045/total_pollinator_abundance_spring.png)
+
+
 
 #### Ecosystem Service: Sediment Retention
 
-![]()
+##### SSP1 2030 
+![](./invest)
+
+
+##### SSP1 2035
+![](./invest)
+
+
+##### SSP1 2045 
+![](./invest)
+
+
+##### SSP5 2030 
+![](./invest)
+
+
+##### SSP5 2035
+![](./invest)
+
+
+##### SSP5 2045 
+![](./invest)
 
 #### Ecosystem Service: Nutrient Retention
 
-![]()
+##### SSP1 2030 
+![](./invest)
+
+
+##### SSP1 2035
+![](./invest)
+
+
+##### SSP1 2045 
+![](./invest)
+
+
+##### SSP5 2030 
+![](./invest)
+
+
+##### SSP5 2035
+![](./invest)
+
+
+##### SSP5 2045 
+![](./invest)
 
 #### Ecosystem Service: Water Yield (Supply)
 
-![]()
+##### SSP1 2030 
+![](./invest)
+
+
+##### SSP1 2035
+![](./invest)
+
+
+##### SSP1 2045 
+![](./invest)
+
+
+##### SSP5 2030 
+![](./invest)
+
+
+##### SSP5 2035
+![](./invest)
+
+
+##### SSP5 2045 
+![](./invest)
 
 ### Describe how the various scenerios differ with respect to the different ecosystem services. 
 
-Here I discuss what visually increases and decreases. Are there hotstops in the country?
+There is no visual distinction between the different scenerios. 
+This exercise shows that Belize will remain unchanged in the near term for various SSP scenerios. 
+It could also be that 2030 -- 2045 is too short of a timeframe to see meaniful change to the landuse (and therefore the ecosystem service provision) of the country. 
 
 ### Write an executive summary for what the policy maker interested in "green economic development" should know. 
 
-Here is my executive summary. Avoid SSP5 as a counterfactual. value in ...
+In short, Belize's ecosystem servies will be unaffected by various climate change scenerios in the near term through 2045. The country of Belize has natural capital in the form of ... and is concentrated in ...
 
 ## Step 3 
 
