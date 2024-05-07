@@ -629,13 +629,175 @@ if __name__ == '__main__':
 # Module: Run Water Yield (Supply)
 
 ## Run for SSP1 2030
+args = {
+    'biophysical_table_path': 'C:\\Users\\ryanm\\Dropbox '
+                              '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\esa_and_modis_biophysical_table.csv',
+    'demand_table_path': '',
+    'depth_to_root_rest_layer_path': 'C:\\Users\\ryanm\\Dropbox '
+                                     '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\root-layer-depth.tif',
+    'eto_path': 'C:\\Users\\ryanm\\Dropbox '
+                '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\evapotranspiration.tif',
+    'lulc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\seals\\projects\\BLZ_standard\\intermediate\\stitched_lulc_simplified_scenarios\\reprojected\\lulc_esa_seals7_ssp1_rcp26_luh2-message_bau_2030_clipped.tif',
+    'n_workers': '-1',
+    'pawc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\plant-water-content.tif',
+    'precipitation_path': 'C:\\Users\\ryanm\\Dropbox '
+                          '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\precipitation.tif',
+    'results_suffix': '',
+    'seasonality_constant': '20',
+    'sub_watersheds_path': '',
+    'valuation_table_path': '',
+    'watersheds_path': 'C:\\Users\\ryanm\\Dropbox '
+                       '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\watershed2.shp',
+    'workspace_dir': 'C:\\Users\\ryanm\\Dropbox '
+                     '(Personal)\\Files\\apec_8601\\env8601_project\\invest\\water-ssp1-2030',
+}
+
+if __name__ == '__main__':
+    natcap.invest.annual_water_yield.execute(args)
 
 ## Run for SSP1 2035
+args = {
+    'biophysical_table_path': 'C:\\Users\\ryanm\\Dropbox '
+                              '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\esa_and_modis_biophysical_table.csv',
+    'demand_table_path': '',
+    'depth_to_root_rest_layer_path': 'C:\\Users\\ryanm\\Dropbox '
+                                     '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\root-layer-depth.tif',
+    'eto_path': 'C:\\Users\\ryanm\\Dropbox '
+                '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\evapotranspiration.tif',
+    'lulc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\seals\\projects\\BLZ_standard\\intermediate\\stitched_lulc_simplified_scenarios\\reprojected\\lulc_esa_seals7_ssp1_rcp26_luh2-message_bau_2035_clipped.tif',
+    'n_workers': '-1',
+    'pawc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\plant-water-content.tif',
+    'precipitation_path': 'C:\\Users\\ryanm\\Dropbox '
+                          '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\precipitation.tif',
+    'results_suffix': '',
+    'seasonality_constant': '20',
+    'sub_watersheds_path': '',
+    'valuation_table_path': '',
+    'watersheds_path': 'C:\\Users\\ryanm\\Dropbox '
+                       '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\watershed2.shp',
+    'workspace_dir': 'C:\\Users\\ryanm\\Dropbox '
+                     '(Personal)\\Files\\apec_8601\\env8601_project\\invest\\water-ssp1-2035',
+}
+
+if __name__ == '__main__':
+    natcap.invest.annual_water_yield.execute(args)
 
 ## Run for SSP1 2045
+args = {
+    'biophysical_table_path': 'C:\\Users\\ryanm\\Dropbox '
+                              '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\esa_and_modis_biophysical_table.csv',
+    'demand_table_path': '',
+    'depth_to_root_rest_layer_path': 'C:\\Users\\ryanm\\Dropbox '
+                                     '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\root-layer-depth.tif',
+    'eto_path': 'C:\\Users\\ryanm\\Dropbox '
+                '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\evapotranspiration.tif',
+    'lulc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\seals\\projects\\BLZ_standard\\intermediate\\stitched_lulc_simplified_scenarios\\reprojected\\lulc_esa_seals7_ssp1_rcp26_luh2-message_bau_2045_clipped.tif',
+    'n_workers': '-1',
+    'pawc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\plant-water-content.tif',
+    'precipitation_path': 'C:\\Users\\ryanm\\Dropbox '
+                          '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\precipitation.tif',
+    'results_suffix': '',
+    'seasonality_constant': '20',
+    'sub_watersheds_path': '',
+    'valuation_table_path': '',
+    'watersheds_path': 'C:\\Users\\ryanm\\Dropbox '
+                       '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\watershed2.shp',
+    'workspace_dir': 'C:\\Users\\ryanm\\Dropbox '
+                     '(Personal)\\Files\\apec_8601\\env8601_project\\invest\\water-ssp1-2045',
+}
+
+if __name__ == '__main__':
+    natcap.invest.annual_water_yield.execute(args)
 
 ## Run for SSP5 2030
+args = {
+    'biophysical_table_path': 'C:\\Users\\ryanm\\Dropbox '
+                              '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\esa_and_modis_biophysical_table.csv',
+    'demand_table_path': '',
+    'depth_to_root_rest_layer_path': 'C:\\Users\\ryanm\\Dropbox '
+                                     '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\root-layer-depth.tif',
+    'eto_path': 'C:\\Users\\ryanm\\Dropbox '
+                '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\evapotranspiration.tif',
+    'lulc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\seals\\projects\\BLZ_standard\\intermediate\\stitched_lulc_simplified_scenarios\\reprojected\\lulc_esa_seals7_ssp5_rcp85_luh2-message_bau_2030_clipped.tif',
+    'n_workers': '-1',
+    'pawc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\plant-water-content.tif',
+    'precipitation_path': 'C:\\Users\\ryanm\\Dropbox '
+                          '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\precipitation.tif',
+    'results_suffix': '',
+    'seasonality_constant': '20',
+    'sub_watersheds_path': '',
+    'valuation_table_path': '',
+    'watersheds_path': 'C:\\Users\\ryanm\\Dropbox '
+                       '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\watershed2.shp',
+    'workspace_dir': 'C:\\Users\\ryanm\\Dropbox '
+                     '(Personal)\\Files\\apec_8601\\env8601_project\\invest\\water-ssp5-2030',
+}
+
+if __name__ == '__main__':
+    natcap.invest.annual_water_yield.execute(args)
 
 ## Run for SSP5 2035
+args = {
+    'biophysical_table_path': 'C:\\Users\\ryanm\\Dropbox '
+                              '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\esa_and_modis_biophysical_table.csv',
+    'demand_table_path': '',
+    'depth_to_root_rest_layer_path': 'C:\\Users\\ryanm\\Dropbox '
+                                     '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\root-layer-depth.tif',
+    'eto_path': 'C:\\Users\\ryanm\\Dropbox '
+                '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\evapotranspiration.tif',
+    'lulc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\seals\\projects\\BLZ_standard\\intermediate\\stitched_lulc_simplified_scenarios\\reprojected\\lulc_esa_seals7_ssp5_rcp85_luh2-message_bau_2035_clipped.tif',
+    'n_workers': '-1',
+    'pawc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\plant-water-content.tif',
+    'precipitation_path': 'C:\\Users\\ryanm\\Dropbox '
+                          '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\precipitation.tif',
+    'results_suffix': '',
+    'seasonality_constant': '20',
+    'sub_watersheds_path': '',
+    'valuation_table_path': '',
+    'watersheds_path': 'C:\\Users\\ryanm\\Dropbox '
+                       '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\watershed2.shp',
+    'workspace_dir': 'C:\\Users\\ryanm\\Dropbox '
+                     '(Personal)\\Files\\apec_8601\\env8601_project\\invest\\water-ssp5-2035',
+}
+
+if __name__ == '__main__':
+    natcap.invest.annual_water_yield.execute(args)
 
 ## Run for SSP5 2045
+args = {
+    'biophysical_table_path': 'C:\\Users\\ryanm\\Dropbox '
+                              '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\esa_and_modis_biophysical_table.csv',
+    'demand_table_path': '',
+    'depth_to_root_rest_layer_path': 'C:\\Users\\ryanm\\Dropbox '
+                                     '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\root-layer-depth.tif',
+    'eto_path': 'C:\\Users\\ryanm\\Dropbox '
+                '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\evapotranspiration.tif',
+    'lulc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\seals\\projects\\BLZ_standard\\intermediate\\stitched_lulc_simplified_scenarios\\reprojected\\lulc_esa_seals7_ssp5_rcp85_luh2-message_bau_2045_clipped.tif',
+    'n_workers': '-1',
+    'pawc_path': 'C:\\Users\\ryanm\\Dropbox '
+                 '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\plant-water-content.tif',
+    'precipitation_path': 'C:\\Users\\ryanm\\Dropbox '
+                          '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\precipitation.tif',
+    'results_suffix': '',
+    'seasonality_constant': '20',
+    'sub_watersheds_path': '',
+    'valuation_table_path': '',
+    'watersheds_path': 'C:\\Users\\ryanm\\Dropbox '
+                       '(Personal)\\Files\\apec_8601\\env8601_project\\base_data\\invest\\watershed2.shp',
+    'workspace_dir': 'C:\\Users\\ryanm\\Dropbox '
+                     '(Personal)\\Files\\apec_8601\\env8601_project\\invest\\water-ssp5-2045',
+}
+
+if __name__ == '__main__':
+    natcap.invest.annual_water_yield.execute(args)

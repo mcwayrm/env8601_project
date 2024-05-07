@@ -206,27 +206,27 @@ The input base data for the InVEST models can be found in the [base-data folder]
 #### Ecosystem Service: Water Yield (Supply)
 
 ##### SSP1 2030 
-![](./invest)
+![](./invest/water-ssp1-2030/wyield.png)
 
 
 ##### SSP1 2035
-![](./invest)
+![](./invest/water-ssp1-2035/wyield.png)
 
 
 ##### SSP1 2045 
-![](./invest)
+![](./invest/water-ssp1-2045/wyield.png)
 
 
 ##### SSP5 2030 
-![](./invest)
+![](./invest/water-ssp5-2030/wyield.png)
 
 
 ##### SSP5 2035
-![](./invest)
+![](./invest/water-ssp5-2035/wyield.png)
 
 
 ##### SSP5 2045 
-![](./invest)
+![](./invest/water-ssp5-2045/wyield.png)
 
 ### Describe how the various scenerios differ with respect to the different ecosystem services. 
 
